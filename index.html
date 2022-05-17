@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="page">
+  <div class="page__content">
+    <header class="header">
+      <h1 class="header__title">
+        ToDo List
+      </h1>
+    </header>
+    <section class="todos">
+      <form name="todo-form" class="todos__form">
+        <input type="text" name="todo" class="todos__input" placeholder="Следующая задача...">
+        <button type="submit" class="button todos__submit-btn">
+          Добавить
+        </button>
+      </form>
+      <ul class="todos__list">
+        <!-- <li class="todo">
+          <p class="todo__text">
+            Сделать проектную работу
+          </p>
+          <button class="button todo__btn todo__btn_type_edit">
+    
+          </button>
+          <button class="todo__btn button todo__btn_type_copy">
+    
+          </button>
+          <button class="todo__btn button todo__btn_type_remove">
+    
+          </button>
+        </li> -->
+      </ul>
+    </section>
+    <footer class="footer">
+      <footer class="footer__title">
+        © Yandex.Praktikum 2022
+      </footer>
+    </footer>
+  </div>
+  <template class="todo-template">
+    <li class="todo">
+      <p class="todo__text">
+        Сделать проектную работу
+      </p>
+      <button class="button todo__btn todo__btn_type_edit">
+
+      </button>
+      <button class="todo__btn button todo__btn_type_copy">
+
+      </button>
+      <button class="todo__btn button todo__btn_type_remove">
+
+      </button>
+    </li>
+  </template>
+  <script src="./index.js"></script>
+</body>
+
+</html>
