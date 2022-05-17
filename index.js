@@ -33,7 +33,7 @@ function renderItem(value) {
   //  <button class="todo__btn button todo__btn_type_remove"> 
   //  </button>
   //  </li>`; 
-  todosListElement.insertAdjacentHTML('beforeend', taskTemplate)
+  //  todosListElement.insertAdjacentHTML('beforeend', taskTemplate)
   const taskTemplate = document.querySelector(".todo-template").content;
   const taskNode = taskTemplate.cloneNode(true);
   taskNode.querySelector(".todo__text").textContent = value;
