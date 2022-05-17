@@ -72,6 +72,7 @@ todosFormElement.addEventListener("submit", (args) => {
     editingItem.textContent = value;
     let submitBtn = todosFormElement.querySelector(".todos__submit-btn")
     submitBtn.textContent = "Добавить";
+    todosInputElement.value = null;
     editingItem = null;
   }
 
